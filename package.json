@@ -1,6 +1,6 @@
 {
   "name": "simple-json-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple template engine to generate json structures",
   "main": "index.js",
   "repository": "https://github.com",

@@ -18,9 +18,9 @@ export class ModelHelper {
 
     if (Array.isArray(value2)) {
       if (Array.isArray(value1)) {
-        return ModelHelper.mergeArrays(value1, value2);
+        return value1.concat(value2);
       } else {
-        return ModelHelper.mergeArrays([], value2);
+        return [].concat(value2);
       }
     } else if (typeof(value2) === "object") {
       if (typeof(value1) === "object") {
